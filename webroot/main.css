@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Aldrich';
+    src: url("fonts/y0zwa9-hxl3_xvcxn-vxfa-webfont.eot");
+    src: url("fonts/y0zwa9-hxl3_xvcxn-vxfa-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/y0zwa9-hxl3_xvcxn-vxfa-webfont.woff") format("woff"), url("fonts/y0zwa9-hxl3_xvcxn-vxfa-webfont.ttf") format("truetype"), url("fonts/y0zwa9-hxl3_xvcxn-vxfa-webfont.svg#AldrichRegular") format("svg");
+    font-weight: normal;
+    font-style: normal; 
+}
+
+html {
+    background: url("imgs/armyofbots.jpg") repeat fixed center top #000000;
+    padding: 0;
+}
+
+body {
+    color:#f9f9f9;
+/*    font-family: Helvetica, Arial, sans-serif;*/
+    font-family: 'Aldrich';
+    min-height: 850px;
+    padding: 0;
+    text-shadow: 1px 1px 1px #000000;
+    text-align: center;
+    margin:50px 0px; padding:0px;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+
+div.row {
+    background-color: black;
+    width: 40%;
+    float: left;
+    padding: 10px 5% 10px 5%;
+    text-align: center;
+}
+
+div#content {
+    width:500px;
+    margin:0px auto;
+    text-align:center;
+    padding:15px;
+}
+
+div.count {
+    width: 50%;
+    height: 80px;
+
+    padding-top: 15px;
+
+    font-weight: bold;
+    /*font-size:xx-large;*/
+
+    float:left;
+
+    /*line-height: 100px;*/
+    text-align: center;
+    vertical-align: middle;
+}
+
+div.img {
+    height: 80px;
+    width: 50%;
+    float:right;
+    text-align: center;
+}
+
+div.nick {
+    width: 100%;
+    padding-bottom: 1em;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+div#ft {
+    padding: 10px;
+    clear: both;
+}
+
+span.normal {
+    font-size: xx-large;
+    line-height: 70px;
+}
+span.caralho {
+    font-size: large;
+    line-height: 35px;
+}
+
+.clear {
+    clear: both;
+}
+
+a:visited, a:link {
+    color: white;
+    text-decoration: none;
+}

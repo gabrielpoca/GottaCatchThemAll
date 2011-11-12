@@ -1,0 +1,7 @@
+This app sorts users by badge count. It runs offline so files user-badge-up.php and users-up.php shouldn't go on the server, only the content of webroot. 
+
+Run:
+	php user-badge-up.php
+	php users-up.php
+
+This generates a new database.db. You should now replace it on webroot.
